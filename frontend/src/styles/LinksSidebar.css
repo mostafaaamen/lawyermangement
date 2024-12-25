@@ -1,0 +1,25 @@
+.containerLiksSidebar{
+
+    padding: 0;
+}
+.containerLiksSidebar .liSidebar{
+    padding: 10px;
+}
+.containerLiksSidebar .liSidebar:hover,.containerLiksSidebar .liSidebar.active{
+     background-image: linear-gradient(to right, rgb(209, 209, 209) , rgb(99, 95, 95));
+
+}
+.containerLiksSidebar .liSidebar .aSidebar{
+    color: rgb(4, 128, 117);
+    
+}
+.containerLiksSidebar .liSidebar .aSidebar:hover{
+}
+.containerLiksSidebar .liSidebar i{
+    margin: 0 10px;
+}
+
+.containerLiksSidebar .liSidebar .aSidebar i svg {
+    width: 20px;
+    fill:  rgb(4, 128, 117);
+}

@@ -1,0 +1,23 @@
+.addClientContainer{}
+.addClientContainer .content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+.addClientContainer .content>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.addClientContainer .content>div input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #DDD;
+}
+.addClientContainer .content>div textarea{
+    resize: none;
+    min-height: 100px;
+}
+

@@ -1,0 +1,15 @@
+
+ .templates {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+}
+#sitemapbyMH .templates .content{
+    /* background-color: red; */
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(4, 128, 117);
+    margin: 10px;
+    color: rgb(4, 128, 117);
+    direction: rtl;
+    min-height: 300px;
+}

@@ -1,0 +1,26 @@
+export const LANG_SideBar={
+    ar:{
+        type:"rtl",
+        home:"الرئيسية",
+        client:"العملاء",
+        case:"القضايا",
+        payment:"المدفوعات",
+        file:"الملفات",
+        report:"التقارير",
+        template:"النماذج",
+        law:"القوانين",
+        system:"النظام",
+    },
+    en:{
+        type:"ltr",
+        home:"Home",
+        client:"Client",
+        payment:"Payment",
+        case:"Lawsuit",
+        file:"Files",
+        report:"Report",
+        template:"Template",
+        law:"Law",
+        system:"System",
+    },
+}

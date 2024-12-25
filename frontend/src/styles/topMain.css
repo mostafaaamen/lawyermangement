@@ -1,0 +1,21 @@
+.main{}
+
+.main .top{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;      
+    padding: 1px;
+    background-color: rgb(185, 185, 185);; 
+    width: 100%;    
+    border-bottom: 2px solid #555555ce;
+}
+.main .top img{
+    width: 60px;
+    height: 58px;
+    border-radius: 50%;
+    padding-left: 10px;
+    margin-right: auto;
+}
+.main .top .appName{
+    margin-right:auto
+}

@@ -1,0 +1,106 @@
+/* Center the form on the page */
+.createFileLawsuites form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the form inputs */
+  .createFileLawsuites form input[type="text"],
+  .createFileLawsuites form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  /* Focused inputs */
+  .createFileLawsuites form input[type="text"]:focus,
+  .createFileLawsuites form textarea:focus {
+    border-color: #5c9dff;
+    outline: none;
+  }
+  
+  /* Custom file upload styles */
+  .createFileLawsuites form .file-upload {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .createFileLawsuites form input[type="file"] {
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .createFileLawsuites form .file-upload-button {
+    padding: 32px 20px;
+    background-color: #0945adef;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    border: 2px dashed rgb(5, 21, 87);
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+
+  }
+  
+  .createFileLawsuites form .file-upload-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* File name display */
+  .createFileLawsuites form .file-name {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Style the submit button */
+  .createFileLawsuites form button {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .createFileLawsuites form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add some spacing between elements */
+  .createFileLawsuites form textarea {
+    height: 100px;
+  }
+  
+  /* Prevent the file input from changing size */
+  .createFileLawsuites form input[type="file"] {
+    padding: 5px;
+  }
+  
+  /* Add spacing and styling for the text inputs */
+  .createFileLawsuites form input[type="text"],
+  .createFileLawsuites form textarea {
+    margin-bottom: 20px;
+  }
+  

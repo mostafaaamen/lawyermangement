@@ -1,0 +1,37 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  /* font-family: "Julee", cursive; */
+  font-family: "Tajawal", 'Julee';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* box-sizing: border-box; */
+}
+
+input::placeholder {
+  font-family: 'Julee', sans-serif;  /* Change font family */
+  font-size: 16px;                   /* Change font size */
+  color: #888;                       /* Change font color */
+  font-style: italic;                /* Italicize the placeholder */
+  font-weight: bold;                 /* Make the placeholder bold */
+}
+ul{
+  list-style: none;
+}
+a{text-decoration: none;}
+
+/* Webkit browsers (Chrome, Safari, Edge) */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,74 @@
+.userId {
+    display: grid;
+    grid-template-columns: 4fr auto;
+}
+
+.userId .left {
+    /* background-color: red; */
+    padding: 10px;
+    margin: 0 3px 0 0;
+
+}
+
+
+.userId .left .topUserId {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.userId .left .topUserId .enumData {
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userId .left .topUserId .enumData {}
+
+.userId .left .topUserId .enumData:nth-child(1) {
+    background-color: rgba(145, 18, 18, 0.623);}
+
+
+
+.userId .left .topUserId .enumData:nth-child(2) {
+    background-color: rgba(18, 145, 135, 0.623);}
+.userId .left .topUserId .enumData:nth-child(3) {
+    background-color: rgba(145, 126, 18, 0.623);}
+
+.userId .right {
+    background-color: rgb(194, 194, 194);
+    padding: 10px;
+    align-content: right;
+    border-radius: 0 0 0 5px;
+    /* direction: rtl; */
+
+}
+
+.userId .right>i {
+    font-size: 40px;
+    color: blueviolet;
+    margin: 10px 0;
+}
+
+.userId .right .title {
+    color: rgb(4, 90, 61);
+}
+
+.userId .right .info>span {
+    color: rgb(1, 73, 73);
+    text-transform: capitalize;
+}
+.showdata .addnewlawsuite{
+    padding: 10px;
+    background-color: rgba(12, 158, 12, 0.61);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* font-family: ; */
+    font-family: "Tajawal", 'Julee';
+    font-size: 22px;
+    margin-top: 20px;
+
+}

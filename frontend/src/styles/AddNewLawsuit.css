@@ -1,0 +1,100 @@
+.newLawsuit{}
+.newLawsuit .users{
+    display: grid;
+    grid-template-columns:1fr 3fr;
+    justify-content: center;
+    gap: 50px;
+}
+.newLawsuit .users .clientUsers{
+}
+
+.newLawsuit .users .clientUsers div{
+}
+.newLawsuit .users .clientUsers > div >input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin: 5px 0;
+    background-color: #DDD;
+}
+.newLawsuit .users .clientUsers > div label{
+    display: block;
+
+}
+
+.newLawsuit .users .genstUser{}
+
+.newLawsuit .users .genstUser .gen-content{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    justify-content: center;
+
+}
+.newLawsuit .lawsuiteInfo{
+    margin-top: 20px;
+}
+.newLawsuit .users .genstUser h3,
+.newLawsuit .users .clientUsers h3,
+.newLawsuit .lawsuiteInfo .title{
+    text-align: center;
+    color: orangered;
+}
+.newLawsuit .lawsuiteInfo .content{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+}
+.newLawsuit .lawsuiteInfo .content > div label{
+    display: block;
+}
+.newLawsuit .lawsuiteInfo .content > div input{
+    width: 100%;
+}
+.newLawsuit .lawsuiteInfo .content > div select,
+.newLawsuit .users .clientUsers > div select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(2, 2, 54);
+    color: white;
+    text-align: center;
+}
+.newLawsuit .lawsuiteInfo .content > div textarea{
+    width: 100%;
+    min-height: 100px;
+    max-height: 350px;
+    resize:vertical
+
+}
+
+.genstUser .gen-content > div input,
+.newLawsuit .lawsuiteInfo .content > div input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:#DDD;
+    color: blueviolet;
+    text-align: center;
+    margin: 5px 0;
+}
+.newLawsuit .lawsuitBtn {
+    width: 100%;
+    margin: 30px 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.newLawsuit .lawsuitBtn button {
+    padding: 10px;
+    border: none;
+    width: 500px;
+    background-color: green;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}

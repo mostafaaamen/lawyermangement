@@ -1,0 +1,98 @@
+/* General Styles for the Table */
+.tableContent {
+    width: 100%;
+    overflow-x: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    table-layout: auto; /* Allow cells to adjust to content size */
+}
+
+th {
+    padding: 12px 3px;
+    border: 1px solid #ddd;
+    background-color: rgb(4, 128, 117); /* Green Background for header */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Reverse the order of the <thead> (Table Headers) */
+table thead {
+    direction: rtl;  /* Reverses the order of table headers visually */
+}
+
+table thead tr {
+    display: table-row;
+}
+
+/* Alternating row colors */
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Light grey for odd rows */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ffffff; /* White for even rows */
+}
+
+/* Hover Effect for Rows */
+tbody tr:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+tbody tr td {
+    text-align: center;
+    padding: 5px 0;
+    width: auto; /* Allow auto width for content size */
+}
+
+/* Style for Action Column */
+.action {
+    text-align: center;
+    color: #007BFF;  /* Blue color for action */
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.action:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design for smaller screens
+@media screen and (max-width: 600px) {
+    table {
+        width: 100%;
+        border: 0;
+    }
+
+    th, td {
+        padding: 10px;
+        display: block;
+        width: 100%;
+    }
+
+    th {
+        background-color: #4CAF50;
+        color: white;
+        text-align: center;
+    }
+
+    td {
+        border-top: 1px solid #ddd;
+        text-align: right;
+    }
+
+    td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        text-align: left;
+    }
+} */

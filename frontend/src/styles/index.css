@@ -1,0 +1,14 @@
+.page{
+ display: flex;
+ width: 100%;
+}
+.page .mainApp{
+    width: 85%;
+    background-color: rgb(253, 253, 253);
+}
+.page .mainSidebar{
+    width: 15%;
+    background-color: rgb(185, 185, 185);
+    height: 100vh;
+    
+}

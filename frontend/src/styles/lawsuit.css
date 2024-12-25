@@ -1,0 +1,22 @@
+.lawsuitTop{
+    /* padding: 10px; */
+    margin-top: 30px ;
+    display: flex;
+    justify-content: space-around;
+}
+.lawsuitTop .btn{
+
+}
+.lawsuitTop .btn > button,
+.lawsuitTop .search input,
+.lawsuitTop .search select
+,.lawsuitTop .search  .btn{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 10px;
+}
+.lawsuitTop .search input{
+    background-color: antiquewhite;
+
+}
